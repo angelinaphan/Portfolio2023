@@ -1,3 +1,110 @@
 body {
   background-color: #1A2750;
 }
+
+/* nav bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 13px;
+  overflow: hidden;
+  background-color: #746055;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+li a.nav-link:hover:not(.active) {
+  background-color: #D1E4E8 ;
+}
+
+.nav-tab {
+  float: left;
+}
+
+.navlink:active {
+  background-color: #EDEDDF;
+  color: #CABBAA;
+}
+
+a {
+  color: #CABBAA;
+}
+
+.active:hover {
+color: #746055;
+}
+
+.nav-link {
+  color: #CABBAA;
+}
+
+.nav-link:hover {
+  color: #746055;
+}
+
+.topnav a {
+  float: left;
+  color: #CABBAA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #746055;
+}
+
+.topnav-centered a:hover {
+
+background-color: #1A2750;
+}
+
+.topnav h1 {
+  padding-top: 10px;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+ justify-content: center;
+}
+
+.welc1 {
+  color: #D1E4E8;
+  text-align: center;
+  float: none;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+  text-align: center;
+  padding: 10px;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  padding-left: 70px;
+  padding-right: 70px;
+}
